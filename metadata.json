@@ -1,0 +1,10 @@
+{
+  "name": "Elydnara",
+  "description": "Salão de estética de unhas da Elydnara em João Monlevade - MG: agendamento online, galeria de trabalhos, pagamento antecipado, fidelidade e notificações WhatsApp.",
+  "requestFramePermissions": [
+    "notifications"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

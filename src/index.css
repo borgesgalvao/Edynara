@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --font-cursive: 'Great Vibes', 'Brush Script MT', cursive;
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Outfit', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-display: 'Outfit', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+.font-cursive {
+  font-family: 'Great Vibes', 'Brush Script MT', cursive;
+}
+
+.font-display {
+  font-family: 'Outfit', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.font-body {
+  font-family: 'Outfit', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Custom scrollbar and subtle floral glow */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF8F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #FAD2DC;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D64D6E;
+}
+
