@@ -33,7 +33,8 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
                 subtitle="A unha é o resultade de uma boa conversa"
                 align="center"
                 className="lg:items-start lg:text-left"
-                subtitleClassName="w-[500px] max-w-full text-center text-xs text-[#7ca685] block font-medium"
+                subtitleClassName="w-[421px] max-w-full text-center text-xs text-[#7ca685] block font-medium"
+                subtitleStyle={{ width: '421px' }}
               />
             </div>
 

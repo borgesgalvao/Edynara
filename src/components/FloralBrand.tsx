@@ -7,6 +7,7 @@ interface FloralBrandProps {
   align?: 'center' | 'left';
   subtitleClassName?: string;
   titleClassName?: string;
+  subtitleStyle?: React.CSSProperties;
 }
 
 export const FloralBrand: React.FC<FloralBrandProps> = ({
@@ -16,6 +17,7 @@ export const FloralBrand: React.FC<FloralBrandProps> = ({
   align = 'center',
   subtitleClassName = '',
   titleClassName = '',
+  subtitleStyle,
 }) => {
   const isCenter = align === 'center';
 
@@ -184,7 +186,10 @@ export const FloralBrand: React.FC<FloralBrandProps> = ({
       </div>
 
       {subtitle && (
-        <span className={`mt-1 uppercase tracking-[0.3em] font-semibold ${subtitleClassName ? subtitleClassName : 'text-xs text-[#7ca685]'}`}>
+        <span
+          className={`mt-1 uppercase tracking-[0.3em] font-semibold ${subtitleClassName ? subtitleClassName : 'text-xs text-[#7ca685]'}`}
+          style={subtitleStyle}
+        >
           {subtitle}
         </span>
       )}
